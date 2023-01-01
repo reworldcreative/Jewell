@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewell</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Noto+Serif+JP:wght@500;700;900&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-dark navbar-expand-sm navigation pt-4">
+            <div class="container">
+                <div class="col-xl-1 col-lg-3 d-flex align-items-center logo-wrap">
+                    <a class="logo-img" href="#"><img src="./img/logo.png" alt="logo"></a>
+                    <p class="logo m-0">Jewell</p>
+                </div>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="p-0 col-xl-4 col-lg-3 col-sm-10 collapse navbar-collapse" id="navbarNav">
+                    <ul class="d-flex container p-0 m-0">
+                        <li class="nav-item"><a class="nav-link menu-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link menu-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link menu-link" href="#products">Services</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link menu-link" href="#catalogue">Catalogue</a>
+                        </li>
+                    </ul>
+                </div>
+                <div col="col-lg-3 col-md-2 nav-btn-wrap">
+                    <button class="login-btn">Log In</button>
+                    <button class="action-btn action-btn-nav">Get Started</button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-12 container order-lg-2">
+                <p class="exp position-lg-absolute position-md-relative m-0">Explore</p>
+                <!-- <video src=""></video> -->
+                <img class="ps-5" src="./img/hero-ring.png" alt="ring" width="auto">
+            </div>
+
+            <div class="col-xl-6 col-lg-5 col-md-10 order-lg-first">
+                <h1 class="hero-title">Discover The Exceptional Jewellery With Us</h1>
+                <p class="hero-text col-10">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et
+                    sint
+                    laboriosam
+                    sed ipsa sin</p>
+
+                <div class="row container hero-btn-wrap">
+                    <button class="action-btn col-4">Get Started</button>
+                    <div class="d-flex col-6 align-items-center wrapper">
+                        <i class="play-icon bi bi-play-circle-fill"></i>
+                        <button class="play-btn p-0">Play Video</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-1 mt-4 d-flex justify-content-end align-items-lg-center align-items-md-end order-last">
+                <ul class="d-flex d-md-block p-0">
+                    <li><i class="mx-3 bi bi-twitter"></i></li>
+                    <li><i class="mx-3 bi bi-vimeo"></i></li>
+                    <li><i class="mx-3 bi bi-linkedin"></i></li>
+                    <li><i class="mx-3 bi bi-facebook"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="products container" id="products">
+        <h2 class="visibility-hidden">Products</h2>
+        <ul class="p-0">
+            <li class="row product-item">
+                <div class="p-0 col-4">
+                    <img class="products-img" src="./img/ring1.png" alt="Pikup Silver Sterling Designer Ring">
+                    <div class="img-bg"></div>
+                </div>
+                <div class="col-6 offset-1 products-text">
+                    <h3 class="product-title">Pikup Silver Sterling Designer Ring</h3>
+                    <p class="product-text">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et
+                        sint
+                        laboriosam sed ipsa
+                        sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in
+                        illo
+                        galisum eo</p>
+                    <div class="container p-0 d-flex">
+                        <button class="action-btn col-4 me-5">Add to Cart</button>
+                        <p class="product-price offset-1 col-5 m-0">$ 549.29</p>
+                    </div>
+                </div>
+            </li>
+
+            <section class="our-story container row d-flex justify-content-end mx-0" id="about">
+                <img class="col-2 p-0 our-story-img align-self-center" src="./img/silver-rings.png"
+                    alt="silver colored rings with gemstones" width="100px">
+                <div class="col-5">
+                    <h2 class="product-title our-story-title">Our Story</h2>
+                    <p class="col-9 m-0">modern jewelry is made of gold, silver, or platinum, often with precious or
+                        semiprecious
+                        stones, it
+                        evolved
+                        from shells, animal teeth, and other items used as body decoration in prehistoric times.
+                    </p>
+                </div>
+            </section>
+
+            <li class="row product-item">
+                <div class="col-6">
+                    <h3 class="product-title">Silver Round Designer Bracelet For Women</h3>
+                    <p class="product-text product-text-second col-11">Lorem ipsum dolor sit amet. Qui consequatur sint
+                        33
+                        voluptatem officia et
+                        sint
+                        laboriosam sed ipsa
+                        sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in
+                        illo
+                        galisum eo</p>
+                    <div>
+                        <p class="size">Size</p>
+                        <ul class="container d-flex p-0">
+                            <li class="col-1 size-item active">S</li>
+                            <li class="col-1 size-item">M</li>
+                            <li class="col-1 size-item">L</li>
+                        </ul>
+                    </div>
+                    <div class="container p-0 d-flex product-btn-wrap d-flex align-items-center">
+                        <button class="action-btn col-4 me-5">Add to Cart</button>
+                        <p class="product-price offset-1 col-5 m-0">$ 549.29</p>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <img src="./img/Silver-Bracelet.png" alt="Silver Round Designer Bracelet For Women" width="500px">
+                </div>
+            </li>
+            <li class="row product-item product-item-third">
+                <div class="col-6 p-0">
+                    <img class="products-img" src="./img/Jewellery.png" alt="An Exquisite Diamond Jewellery">
+                </div>
+                <div class="col-6">
+                    <h3 class="product-title">An Exquisite Diamond Jewellery</h3>
+                    <p class="product-text col-11">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem
+                        officia et
+                        sint
+                        laboriosam sed ipsa
+                        sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in
+                        illo
+                        galisum eo</p>
+                    <div class="container p-0 d-flex mt-3">
+                        <a href="#" class="action-btn col-4 me-5">view more</a>
+                        <p class="product-price offset-1 col-5 m-0">$ 647.59</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="collections container" id="catalogue">
+        <h2 class="visibility-hidden">collections</h2>
+        <ul class="p-0">
+            <li class="row collection-item">
+                <div class="col-6 align-self-center">
+                    <h3 class="collection-title">Jewell Best Collection For You All</h3>
+                    <p class="collection-text">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et
+                        sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus
+                        sit
+                        nulla consequatur in illo galisum eo</p>
+                    <a href="#" class="action-btn">view more</a>
+                </div>
+                <img class="col-5 offset-1" src="./img/necklace-collestion.jpg" alt="necklace">
+            </li>
+            <li class="row collection-item-second">
+                <div class="col-5 position-relative">
+                    <img src="./img/trends.jpg" alt="necklace">
+                    <img class="stamp" src="./img/stamp.png" alt="stamp">
+                </div>
+                <div class="col-6 offset-1 align-self-center">
+                    <h3 class="collection-title">We Have Everything Which Trendy</h3>
+                    <p class="collection-text">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et
+                        sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus
+                        sit
+                        nulla consequatur in illo galisum eo</p>
+                    <a href="#" class="action-btn">view more</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer container-fluid px-0">
+        <div class="container mb-5 footer-wrap">
+            <div class="row">
+
+                <ul class="col-3">
+                    <h4 class="footer-title mb-5">Product</h4>
+                    <li class="footer-text">Email Row</li>
+                    <li class="footer-text mt-4">Free Tools</li>
+                    <li class="footer-text mt-4">Agents</li>
+                    <li class="footer-text mt-4">Blog</li>
+                </ul>
+
+                <ul class="col-3">
+                    <h4 class="footer-title mb-5">Resources</h4>
+                    <li class="footer-text">Our Agents</li>
+                    <li class="footer-text mt-4">Member Stories</li>
+                    <li class="footer-text mt-4">Video</li>
+                    <li class="footer-text mt-4">Free trial</li>
+                </ul>
+
+                <ul class="col-3">
+                    <h4 class="footer-title mb-5">Company</h4>
+                    <li class="footer-text">Patnerships</li>
+                    <li class="footer-text mt-4">Terms of use</li>
+                    <li class="footer-text mt-4">Privacy</li>
+                    <li class="footer-text mt-4">Privacy</li>
+                </ul>
+
+                <div class="col-3">
+                    <h4 class="footer-title mb-5">Get in touch</h4>
+                    <p class="footer-text col-11">You’ll find your next Marketing value you prefer.</p>
+
+                    <ul class="container d-flex p-0 mt-5">
+                        <li class="footer-social col-2 me-3"><i class="bi bi-facebook"></i></li>
+                        <li class="footer-social col-2 me-3"><i class="bi bi-twitter"></i></li>
+                        <li class="footer-social col-2"><i class="bi bi-linkedin"></i></li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <p class="copyright container-fluid m-0">Copyright 2021 j-shop.com, All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
