@@ -55,6 +55,11 @@ body {
     line-height: 225%;
 }
 
+.nav-btn-wrap {
+    /* margin-left: 157px; */
+    display: flex;
+}
+
 .nav-item {
     margin-right: 44px;
 }
@@ -172,6 +177,7 @@ body {
 
 .products-img {
     width: 100%;
+    /* width: auto; */
 }
 
 .product-title,
@@ -271,6 +277,7 @@ body {
     color: var(--main);
     background-image: url("./img/footer-bg.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .footer-wrap {
@@ -304,9 +311,43 @@ body {
     background-color: var(--main);
 }
 
+@media screen and (max-width: 1200px) {
+
+    .logo-wrap {
+        margin-right: auto;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .nav-btn-wrap {
+        position: absolute;
+        top: 100px;
+    }
+
+    .bracelet-img {
+        width: 100%;
+    }
+
+    .hero-title {
+        width: auto;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     .hero-title {
         font-size: 30px;
         width: 100%;
     }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .logo-wrap {
+        margin-right: 100%;
+    }
+
 }
