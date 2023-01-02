@@ -276,7 +276,7 @@ body {
     padding-top: 152px;
     color: var(--main);
     background-image: url("./img/footer-bg.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -340,6 +340,30 @@ body {
     .hero-title {
         font-size: 30px;
         width: 100%;
+    }
+
+    .collection-second-img {
+        width: 100%;
+    }
+
+    .stamp {
+        right: 20px;
+    }
+
+    .footer {
+        background: none;
+    }
+
+    .footer-wrap {
+        padding-left: 10px;
+    }
+
+    .footer-list>* {
+        width: auto;
+    }
+
+    .footer-item {
+        margin-top: 20px;
     }
 
 }
